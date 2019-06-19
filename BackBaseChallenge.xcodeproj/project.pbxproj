@@ -13,6 +13,8 @@
 		04EE4ABA22BA8BE000684B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EE4AB922BA8BE000684B4D /* Assets.xcassets */; };
 		04EE4ABD22BA8BE000684B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EE4ABB22BA8BE000684B4D /* LaunchScreen.storyboard */; };
 		04EE4AC822BA8BE000684B4D /* BackBaseChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE4AC722BA8BE000684B4D /* BackBaseChallengeTests.swift */; };
+		04EE4AD322BA8C0100684B4D /* CitiesCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE4AD222BA8C0100684B4D /* CitiesCodable.swift */; };
+		04EE4AD522BA8DCF00684B4D /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 04EE4AD422BA8DCF00684B4D /* cities.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		04EE4AC322BA8BE000684B4D /* BackBaseChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackBaseChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE4AC722BA8BE000684B4D /* BackBaseChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBaseChallengeTests.swift; sourceTree = "<group>"; };
 		04EE4AC922BA8BE000684B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EE4AD222BA8C0100684B4D /* CitiesCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesCodable.swift; sourceTree = "<group>"; };
+		04EE4AD422BA8DCF00684B4D /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cities.json; path = "../../../Downloads/Mobile test - Backbase/cities.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 			children = (
 				04EE4AB222BA8BDE00684B4D /* AppDelegate.swift */,
 				04EE4AB422BA8BDE00684B4D /* ViewController.swift */,
+				04EE4AD222BA8C0100684B4D /* CitiesCodable.swift */,
 				04EE4AB622BA8BDE00684B4D /* Main.storyboard */,
 				04EE4AB922BA8BE000684B4D /* Assets.xcassets */,
 				04EE4ABB22BA8BE000684B4D /* LaunchScreen.storyboard */,
 				04EE4ABE22BA8BE000684B4D /* Info.plist */,
+				04EE4AD422BA8DCF00684B4D /* cities.json */,
 			);
 			path = BackBaseChallenge;
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EE4AD522BA8DCF00684B4D /* cities.json in Resources */,
 				04EE4ABD22BA8BE000684B4D /* LaunchScreen.storyboard in Resources */,
 				04EE4ABA22BA8BE000684B4D /* Assets.xcassets in Resources */,
 				04EE4AB822BA8BDE00684B4D /* Main.storyboard in Resources */,
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EE4AD322BA8C0100684B4D /* CitiesCodable.swift in Sources */,
 				04EE4AB522BA8BDE00684B4D /* ViewController.swift in Sources */,
 				04EE4AB322BA8BDE00684B4D /* AppDelegate.swift in Sources */,
 			);
